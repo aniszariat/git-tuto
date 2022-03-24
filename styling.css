@@ -4,7 +4,9 @@
     font-family: Cursive;
     margin: 10px 50px;
 }
-
+#navbarNav > ul > li:nth-child(n) > a{
+    padding: 30px;
+}
 #sign {
     position: absolute;
     right: 0;
@@ -20,3 +22,32 @@
     background-color:purple;
     color: white;
 }
+
+/****/
+
+
+
+/* HOME ELEMENTS */
+.text{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.img1{       
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+    transition: opacity 500ms ease 0s;
+    mix-blend-mode: darken;
+}
+
+/**
+Kalthoum CSS
+#section_welcome > div > div > div > h1{
+    margin-top: 20px;
+}
+#section_welcome > div > div > div:nth-child(1) > form > div > div:nth-child(1) > input:active{
+    border-color: blueviolet;
+    outline-color: blueviolet;
+}
+**/
