@@ -1,0 +1,22 @@
+/* NAVBAR ELEMENTS */
+
+.anis {
+    font-family: Cursive;
+    margin: 10px 50px;
+}
+
+#sign {
+    position: absolute;
+    right: 0;
+    color: purple;
+    /***/
+    box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	border-radius:6px;
+	border:1px solid purple;
+
+}
+
+#sign:hover {
+    background-color:purple;
+    color: white;
+}
